@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  border: 3px rebeccapurple solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  height: 100vh;
+
+}
+
+section {
+  opacity: 80%;
+  background-color: rgb(47, 227, 116);
+  z-index: 1;
+  margin: auto auto;
+  height: 70%;
+  width: 30%;
+  border: solid rgb(53, 182, 228);
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  border-radius: 25px;
+  opacity: 60%;
+  z-index: 1;
+  height: 100vh;
+  width: 100vh;
+  top: 0px;
+  left: auto;
+}
+
+img {
+
+  position: relative;
+  left: 750px;
+  top: 50px;
+  height: 200px;
+  position: absolute;
+
+  z-index: 2;
+}
+
+h1 {
+  font-size: 35px;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 15px;
+}
+
+h4 {
+
+  position: relative;
+  top: 260px;
+  left: 100px;
+  color: rgb(6, 53, 119);
+  font-size: 18px;
+}
+
+h5::after {
+  padding: 30px;
+  ;
+  content: "☁️";
+
+
+}
+
+
+
+ul {
+  height: 150px;
+  font-size: larger;
+  list-style: none;
+}
+
+.li1 {
+  display: flex;
+  gap: 5px;
+}
+
+.h5dos::after {
+  padding: 30px;
+  ;
+  content: "💨";
+}
+
+.h5tres::after {
+  padding: 30px;
+  ;
+  content: "🌨️";
+}
+
+.butt {
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  color: rgb(93, 76, 243);
+  position: relative;
+  top: 80px;
+  left: 280px;
+  background-color: rgb(235, 235, 220);
+  border-radius: 50px;
+  width: 28%;
+  height: 6%;
+}
