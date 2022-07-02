@@ -120,6 +120,8 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: none;
+    height: 100vh;
+
 
   
   }
@@ -129,7 +131,7 @@ ul {
     background-color: rgb(223, 236, 228);
     z-index: 1;
     margin: auto auto;
-    height: 90%;
+    height: 70%;
     width:80%;
  
     border-radius: 25px;
@@ -142,7 +144,7 @@ ul {
     opacity: 60%;
     z-index: 1;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     top: 0px;
     left: auto;
   }
@@ -150,9 +152,9 @@ ul {
   img {
   
     position: relative;
-    left: 750px;
-    top: 50px;
-    height: 200px;
+    left: 250px;
+    top: 215px;
+    height: 100px;
     position: absolute;
   
     z-index: 2;
@@ -169,7 +171,7 @@ ul {
   
     position: relative;
     top: 260px;
-    left: 100px;
+    left: 50px;
     color: rgb(6, 53, 119);
     font-size: 18px;
   }
