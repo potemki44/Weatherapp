@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body{
+  height: 0px;
+}
 
 .App {
   border: 3px rebeccapurple solid;
@@ -107,3 +110,115 @@ ul {
   width: 28%;
   height: 6%;
 }
+
+@media only screen and (max-width: 500px) {
+
+
+  .App {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    height: 100vh;
+  
+  }
+  
+  section {
+    opacity: 80%;
+    background-color: rgb(223, 236, 228);
+    z-index: 1;
+    margin: auto auto;
+    height: 90%;
+    width:80%;
+ 
+    border-radius: 25px;
+    z-index: 1;
+  }
+  
+  .background {
+    position: absolute;
+    border-radius: 25px;
+    opacity: 60%;
+    z-index: 1;
+    height: 100vh;
+    width: 100vh;
+    top: 0px;
+    left: auto;
+  }
+  
+  img {
+  
+    position: relative;
+    left: 750px;
+    top: 50px;
+    height: 200px;
+    position: absolute;
+  
+    z-index: 2;
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: rgb(8, 71, 126);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+  }
+  
+  h4 {
+  
+    position: relative;
+    top: 260px;
+    left: 100px;
+    color: rgb(6, 53, 119);
+    font-size: 18px;
+  }
+  
+  h5::after {
+    padding: 30px;
+    ;
+    content: "❄️";
+  
+  
+  }
+  
+  
+  
+  ul {
+    height: 190px;
+    font-size: larger;
+    list-style: none;
+  }
+  
+  .li1 {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .h5dos::after {
+    padding: 30px;
+    ;
+    content: "💦";
+  }
+  
+  .h5tres::after {
+    padding: 30px;
+    ;
+    content: "🧟‍♀️";
+  }
+  
+  .butt {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(93, 76, 243);
+    position: relative;
+    top: 90px;
+    left: 80px;
+    background-color: rgb(235, 235, 220);
+    border-radius: 50px;
+    width: 50%;
+    height: 6%;
+  }
+  
+}
+
